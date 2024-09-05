@@ -1,0 +1,16 @@
+{
+  "name": "opentok-termination-service",
+  "version": "1.0.0",
+  "description": "This project is a small Node.js app that exposes an API endpoint to terminate an OpenTok connection for a given session. The service uses the OpenTok REST API",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.7"
+  },
+  "type": "module"
+}
